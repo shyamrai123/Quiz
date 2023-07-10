@@ -1,0 +1,93 @@
+.quizPage{
+    display: flex;
+    background-image: url(https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg);
+    height: 80vh;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(240, 39, 43);
+    
+    
+}
+
+h3{
+    color: rgb(250, 230, 97);
+}
+
+.question{
+    border: 1px solid rgb(248, 239, 239);
+    border-radius: 50px;
+}
+
+.btnactions{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.actions{
+       display: flex;
+       justify-content: space-around;
+}
+
+
+.btnans{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px 30px;
+    margin-top: 3rem;
+    background-color: rgb(244, 247, 247);
+    cursor: pointer;
+
+}
+
+.btnwrong{ 
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px 30px;
+    margin-top: 3rem;
+    color: black;
+    background-color: rgb(244, 247, 247);
+    cursor: pointer;
+  
+
+}
+
+.btnnext{
+    width: 12rem;
+    height: 3rem;
+    margin-top: 5rem;
+    background-color: rgb(91, 255, 91);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btnquit{
+    width: 12rem;
+    height: 3rem;
+    margin-top: 5rem;
+    background-color: rgb(250, 17, 17);
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+
+.select{
+    background-color: green !important;
+    color: white;
+    box-shadow: 0 0 0.2rem black;
+}
+
+.wrong{
+    background-color: rgb(249, 6, 6) !important;
+    color: white;
+    box-shadow: 0 0 0.2rem black;
+}
+
+
+
+
+
+
+
